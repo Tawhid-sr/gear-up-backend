@@ -1,0 +1,32 @@
+{
+  "name": "gearup-backend",
+  "module": "src/server.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^1.0.0-rc.5-ab785fc"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "drizzle-orm": "^1.0.0-rc.5-ab785fc",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "tsx": "^4.23.15"
+  }
+}
